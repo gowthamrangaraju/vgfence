@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'kiaz-ng'`, () => {
+  it(`should have as title 'vgfence'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('kiaz-ng');
+    expect(app.title).toEqual('vgfence');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('kiaz-ng app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('vgfence app is running!');
   });
 });
