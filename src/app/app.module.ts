@@ -23,6 +23,9 @@ import { ErrorComponent } from './components/pages/error/error.component';
 import { TeamComponent } from './components/pages/team/team.component';
 import { TeamTwoComponent } from './components/pages/team-two/team-two.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
+import { HomeComponent } from './components/pages/home/home.component';
+import { ProductsComponent } from './components/pages/products/products.component';
+import { RentalsComponent } from './components/pages/rentals/rentals.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +49,10 @@ import { ContactComponent } from './components/pages/contact/contact.component';
     ErrorComponent,
     TeamComponent,
     TeamTwoComponent,
-    ContactComponent
+    ContactComponent,
+    HomeComponent,
+    ProductsComponent,
+    RentalsComponent
   ],
   imports: [
     BrowserModule,

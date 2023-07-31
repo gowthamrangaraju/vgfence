@@ -17,9 +17,12 @@ import { ErrorComponent } from './components/pages/error/error.component';
 import { TeamComponent } from './components/pages/team/team.component';
 import { TeamTwoComponent } from './components/pages/team-two/team-two.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
+import { HomeComponent } from './components/pages/home/home.component';
 
 const routes: Routes = [
-    {path: '', component: HomeOneComponent},
+    {path: '', component: HomeComponent},
+    {path: 'home', component: HomeComponent},
+    {path: 'home-one', component: HomeOneComponent},
     {path: 'home-two', component: HomeTwoComponent},
     {path: 'home-three', component: HomeThreeComponent},
     {path: 'about', component: AboutComponent},
