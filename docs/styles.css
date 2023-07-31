@@ -15161,7 +15161,7 @@ h3 {
 }
 
 .home-bg-three {
-  background-image: url('7.png');
+  background-image: url('home-bg.jpg');
   background-position: center center;
   background-size: cover;
   z-index: 1;
@@ -15905,7 +15905,7 @@ h3 {
   background-image: url('6.png');
 }
 .blog-title-bg.bg-2 {
-  background-image: url('assets-img-title-bg-7.png');
+  background-image: url('7.png');
 }
 .blog-title-bg::before {
   position: absolute;
@@ -16526,7 +16526,7 @@ h3 {
 /*-------------- TEAM PAGE CSS START ---------------*/
 /* Team Title CSS Start */
 .team-title-bg {
-  background-image: url('assets-img-title-bg-7.png');
+  background-image: url('7.png');
   background-position: center center;
   background-size: cover;
   height: 350px;
