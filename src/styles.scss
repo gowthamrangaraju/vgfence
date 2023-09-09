@@ -8,7 +8,7 @@ $black-color:#111111;
 $paragraph-color:#646464;
 
 /* Font-Family Variable */
-$body-font:'Poppins';
+$body-font:'League Spartan';
 
 body {
     color: $paragraph-color;
@@ -1551,7 +1551,7 @@ h3 {
 .footer-area {
     background: $blue-color;
     z-index: 1;
-    padding-top: 347px;
+    padding-top: 80px;
     position: relative;
 
     &::before {
