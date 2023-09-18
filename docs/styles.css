@@ -12603,7 +12603,7 @@ a.meanmenu-reveal {
 /* Font-Family Variable */
 body {
   color: #646464;
-  font-family: "Poppins";
+  font-family: "League Spartan";
   line-height: 1.8;
   padding: 0;
   margin: 0;
@@ -12654,6 +12654,11 @@ h3 {
 .form-control:focus, input:focus, button:focus, .btn:focus {
   outline: 0;
   box-shadow: 0 0 0 0 !important;
+}
+
+.ptb-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .ptb-100 {
@@ -14057,7 +14062,7 @@ h3 {
 .footer-area {
   background: #031888;
   z-index: 1;
-  padding-top: 347px;
+  padding-top: 80px;
   position: relative;
 }
 .footer-area::before {
